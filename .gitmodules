@@ -10,3 +10,6 @@
 [submodule "bundle/repeat"]
 	path = bundle/repeat
 	url = http://github.com/tpope/vim-repeat.git
+[submodule "bundle/haskell"]
+	path = bundle/haskell
+	url = http://github.com/vim-scripts/haskell.vim.git
