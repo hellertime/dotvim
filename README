@@ -7,5 +7,12 @@ Installation:
 
 1. Clone this repository into ~/.vim (~/vimfiles on Windows)
 2. Link ~/.(g)vimrc to ~/(g)vimrc
+   (On windows use 'fsutil hardlink create')
 3. In ~/.vimrc run `git submodule update --init`
 4. Make directory ~/.vim/autoload, and link ~/.vim/pathogen/autoload/pathogen.vim ~/autoload/pathogen.vim
+   (Create hardlinks on Windows for this too)
+
+Plugins:
+--------
+Install from git repository with `git add submodule <path> bundle/<plugin>`
+Then commit when ready `git commit -m "Installed <plugin> as submodule"`
