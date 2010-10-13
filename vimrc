@@ -44,7 +44,6 @@ syntax off       " no syntax hilighting thanks
 " }}}
 
 " command options {{{
-set directory=$TMPDIR  " keep swapfiles in a nice location 
 set wildmenu           " bash-like tab completion
 set wildmode=list:full " show completion list
 set wildignore=*.swp,*.bak,*.pyc,*.so
