@@ -1,0 +1,7 @@
+Installation:
+-------------
+
+1. Clone this repository into ~/.vim (~/vimfiles on Windows)
+2. Link ~/.(g)vimrc to ~/(g)vimrc
+3. In ~/.vimrc run `git submodule update --init`
+4. Make directory ~/.vim/autoload, and link ~/.vim/pathogen/autoload/pathogen.vim ~/autoload/pathogen.vim
