@@ -40,6 +40,7 @@ set termencoding=utf-8
 set encoding=utf-8
 set lazyredraw   " prevent updates during macro execution
 set laststatus=2 " always display a status line
+syntax off       " no syntax hilighting thanks
 " }}}
 
 " command options {{{
