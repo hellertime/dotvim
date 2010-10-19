@@ -14,5 +14,5 @@ Installation:
 
 Plugins:
 --------
-Install from git repository with `git add submodule <path> bundle/<plugin>`
+Install from git repository with `git submodule add <path> bundle/<plugin>`
 Then commit when ready `git commit -m "Installed <plugin> as submodule"`
